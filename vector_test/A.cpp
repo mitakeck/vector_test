@@ -26,6 +26,17 @@ A::~A(void)
 
 }
 
+
+int A::getX(){
+	return x;
+}
+int A::getY(){
+	return y;
+}
+int A::getZ(){
+	return z;
+}
+
 void A::display(void){
 	std::cout <<  "x: " << x << ", y: " << y << ", z: " << z << std::endl;
 }
